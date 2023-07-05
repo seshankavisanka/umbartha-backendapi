@@ -65,7 +65,7 @@ export class CounselorsService {
     const counselor = await this.counselorModel
       .findOneAndUpdate(
         { _id: counselorId },
-        { $push: { services: [service.toObject()] } },
+        { $push: { services: service.toObject() } },
       )
       .exec();
     if (!counselor) {
