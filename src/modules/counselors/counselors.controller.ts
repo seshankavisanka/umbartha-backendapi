@@ -45,8 +45,8 @@ export class CounselorsController {
     return this.counselorsService.remove(counselorId);
   }
 
-  @Post(':id')
-  upload(@Param('id') counselorId: string, @Body() serviceId: string) {
+  @Post(':counselorId')
+  upload(@Param('counselorId') counselorId: string, @Body() serviceId: string) {
     return this.counselorsService.uploadServiceToCounselor(
       counselorId,
       serviceId,
