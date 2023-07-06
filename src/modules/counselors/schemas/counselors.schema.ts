@@ -103,9 +103,6 @@ export class Counselor extends Document {
     },
   })
   profilePicture: { name: string; s3ObjectURL: string };
-
-  @Prop({ type: [] })
-  status: Status[];
 }
 
 export const CounselorSchema = SchemaFactory.createForClass(Counselor);
