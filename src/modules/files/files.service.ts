@@ -1,9 +1,4 @@
-import {
-  GetObjectCommand,
-  GetObjectCommandOutput,
-  PutObjectCommand,
-  S3,
-} from '@aws-sdk/client-s3';
+import { GetObjectCommand, PutObjectCommand, S3 } from '@aws-sdk/client-s3';
 import { Injectable } from '@nestjs/common';
 
 @Injectable()
@@ -25,13 +20,10 @@ export class FilesService {
 
     try {
       await s3.send(new PutObjectCommand(params));
-      await s3.send(new GetObjectCommand(params));
+
       const objectUrl = `https://${process.env.S3_BUCKET_NAME}.s3.${process.env.REGION}.amazonaws.com/${fileName}`;
       console.log(objectUrl);
-      await s3.deleteObject({
-        Bucket: process.env.S3_BUCKET_NAME,
-        Key: fileName,
-      });
+      const s3Responce = await s3.send(new GetObjectCommand(params));
     } catch (error) {
       throw 'Error uploading file: ' + error;
     }
