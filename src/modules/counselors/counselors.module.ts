@@ -4,6 +4,7 @@ import { CounselorsService } from './counselors.service';
 import { MongooseModule } from '@nestjs/mongoose';
 import { Counselor, CounselorSchema } from './schemas/counselors.schema';
 import { Service, ServiceSchema } from '../services/schemas/services.schema';
+import { EmailsModule } from '../emails/emails.module';
 
 @Module({
   imports: [
@@ -11,6 +12,7 @@ import { Service, ServiceSchema } from '../services/schemas/services.schema';
       { name: Counselor.name, schema: CounselorSchema },
       { name: Service.name, schema: ServiceSchema },
     ]),
+    EmailsModule,
   ],
   controllers: [CounselorsController],
   providers: [CounselorsService],

@@ -5,6 +5,8 @@ import { Model } from 'mongoose';
 import { Service } from '../services/schemas/services.schema';
 import { PaginationQueryDto } from 'src/common/dto/pagination-query.dto';
 import { CreateCounselorDto } from './dto/create.counselors.dto';
+import { UpdateCounselorDto } from './dto/update.counselors.dto';
+import { EmailsService } from '../emails/emails.service';
 
 @Injectable()
 export class CounselorsService {
@@ -13,11 +15,14 @@ export class CounselorsService {
     private readonly counselorModel: Model<Counselor>,
     @InjectModel(Service.name)
     private readonly serviceModel: Model<Service>,
+    private emailsSendService: EmailsService,
   ) {}
 
-  create(createCounselorDto: CreateCounselorDto): Promise<Counselor> {
+  async create(createCounselorDto: CreateCounselorDto) {
     const counselor = new this.counselorModel(createCounselorDto);
-    return counselor.save();
+    await counselor.save();
+
+    return this.emailsSendService.sendMail(createCounselorDto);
   }
 
   findAll(paginationQuery: PaginationQueryDto) {
@@ -35,7 +40,7 @@ export class CounselorsService {
 
   async update(
     id: string,
-    updateCounselorDto: CreateCounselorDto,
+    updateCounselorDto: UpdateCounselorDto,
   ): Promise<Counselor> {
     const exitingCounselor = await this.counselorModel
       .findOneAndUpdate(
@@ -71,6 +76,6 @@ export class CounselorsService {
     if (!counselor) {
       throw new NotFoundException('Counselor not found');
     }
-    return counselor.save();
+    return counselor;
   }
 }
