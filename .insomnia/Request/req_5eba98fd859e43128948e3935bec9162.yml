@@ -1,0 +1,22 @@
+_id: req_5eba98fd859e43128948e3935bec9162
+type: Request
+parentId: fld_4494ca5549854e0fb73d39b815f98b1f
+modified: 1694337645359
+created: 1689940593240
+url: "{{ _.base_url
+  }}/meeting/64fca2dee3109bd3b9402302/meeting-payment/64fd89f09ab4c3c4a943834b"
+name: /meeting/{:meetingId}/meeting-payment/{:optionId}
+description: ""
+method: PUT
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: 900
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,21 @@
+_id: req_495a046e35f041189bde48e3b7f0dba0
+type: Request
+parentId: fld_978372f0806f43578e875d84b21c64f3
+modified: 1694403026152
+created: 1690795173112
+url: "{{ _.base_url }}/booking-payment/64c782b6c6430178b8d465de"
+name: /booking-payment/{:bookingPaymentId}
+description: ""
+method: DELETE
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: 250
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

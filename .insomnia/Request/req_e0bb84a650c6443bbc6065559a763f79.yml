@@ -1,0 +1,29 @@
+_id: req_e0bb84a650c6443bbc6065559a763f79
+type: Request
+parentId: fld_bf00b3efcb9248deb29aa44a4b936937
+modified: 1694368244338
+created: 1689051974424
+url: "{{ _.base_url }}/payment/64d9aaaed64841c297681596"
+name: /payment/{:paymentId}
+description: ""
+method: PATCH
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"name": "Caession",
+    	"description": "Pare/after on"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: 425
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

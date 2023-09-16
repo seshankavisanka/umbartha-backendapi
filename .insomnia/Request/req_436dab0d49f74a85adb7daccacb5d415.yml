@@ -1,0 +1,21 @@
+_id: req_436dab0d49f74a85adb7daccacb5d415
+type: Request
+parentId: fld_d22b611398d34b6b988c7f3e3fc0323d
+modified: 1694402922284
+created: 1689663443505
+url: "{{ _.base_url }}/media/image/64b658394a1311b105c343e31689673691282-123278.png"
+name: /media/image/{:fileName}
+description: ""
+method: DELETE
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: 100
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

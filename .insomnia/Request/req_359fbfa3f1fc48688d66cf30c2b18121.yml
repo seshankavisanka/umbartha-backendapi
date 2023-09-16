@@ -1,0 +1,22 @@
+_id: req_359fbfa3f1fc48688d66cf30c2b18121
+type: Request
+parentId: fld_4494ca5549854e0fb73d39b815f98b1f
+modified: 1694331922938
+created: 1689764972999
+url: "{{ _.base_url
+  }}/meeting/64fca2dee3109bd3b9402302/meeting-duration/64fd740d3da09ae34710f962"
+name: /meeting/{:meetingId}/meeting-duration/{:durationId}
+description: ""
+method: DELETE
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: 600
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

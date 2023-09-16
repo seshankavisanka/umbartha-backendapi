@@ -1,0 +1,10 @@
+_id: fld_acdfeab992d74a8c8850b73085d8a50b
+type: RequestGroup
+parentId: wrk_5813bc3a28cd43dd889db2add0e3b9f5
+modified: 1694158807793
+created: 1689130709762
+name: rate
+description: ""
+environment: {}
+environmentPropertyOrder: null
+metaSortKey: 66.796875

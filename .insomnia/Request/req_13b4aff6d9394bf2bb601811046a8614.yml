@@ -1,0 +1,21 @@
+_id: req_13b4aff6d9394bf2bb601811046a8614
+type: Request
+parentId: fld_865b7f7fd6e14ef39fe9dd659b4e91b6
+modified: 1694370266279
+created: 1689170406073
+url: "{{ _.base_url }}/coupon"
+name: /coupon
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: 100
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

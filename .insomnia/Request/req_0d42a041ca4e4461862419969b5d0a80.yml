@@ -1,0 +1,29 @@
+_id: req_0d42a041ca4e4461862419969b5d0a80
+type: Request
+parentId: fld_bf00b3efcb9248deb29aa44a4b936937
+modified: 1694367475514
+created: 1689051981209
+url: "{{ _.base_url }}/payment"
+name: /payment
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"name": "Cash at Session",
+    	"description": "Pay by cash before/after the session"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: 50
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

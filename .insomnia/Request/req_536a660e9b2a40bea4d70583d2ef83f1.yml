@@ -1,0 +1,22 @@
+_id: req_536a660e9b2a40bea4d70583d2ef83f1
+type: Request
+parentId: fld_027fe1d62c8645d18d5f0c6eb7ed9e0c
+modified: 1694498274800
+created: 1689671564319
+url: "{{ _.base_url
+  }}/location/64fffd9ce47e812a0fe1737b/gallery/64fffdafe47e812a0fe17384"
+name: /location/{:locationId}/gallery/{:galleryId}
+description: ""
+method: DELETE
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: 483.59375
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

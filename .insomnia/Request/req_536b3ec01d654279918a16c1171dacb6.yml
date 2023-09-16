@@ -1,0 +1,21 @@
+_id: req_536b3ec01d654279918a16c1171dacb6
+type: Request
+parentId: fld_acdfeab992d74a8c8850b73085d8a50b
+modified: 1694107111614
+created: 1692101625234
+url: "{{ _.base_url }}/counselor/rate/64f841ddfe1cc6469b17378d"
+name: /counselor/rate/{:rateId}
+description: ""
+method: DELETE
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: 400
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,33 @@
+_id: req_a90d724b32b343c9892ad9eb83f55a18
+type: Request
+parentId: fld_4494ca5549854e0fb73d39b815f98b1f
+modified: 1694333318867
+created: 1689915166105
+url: "{{ _.base_url }}/meeting/64fca2dee3109bd3b9402302/meeting-schedule"
+name: /meeting/{:meetingId}/meeting-schedule
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"type": "EVERYDAY",
+    	"startTime": "1600",
+    	"endTime": "1700",
+    	"room": [
+    		"64fa03a2dde54719125a7efa"
+    	]
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: 800
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

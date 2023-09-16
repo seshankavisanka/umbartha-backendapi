@@ -1,0 +1,26 @@
+_id: env_32804fa846654afca5e0e0766f26d8c7
+type: Environment
+parentId: env_b988c801306c49fcab49448099d53830
+modified: 1694877077063
+created: 1693321243572
+name: qa
+data:
+  scheme: https://
+  host: api-qa.umbartha.org
+  port: "443"
+  auth0_domain: https://umbartha.eu.auth0.com
+  client_id: yf1FqmQkjYN7Un6zTNy8jbx0l4eTPoFD
+  client_secret: zcregENG8FggEuNTztp5_6s2AouFjpwpvoWfPLsek431v0i0nhccQNenGNqm1UiO
+  audience: https://umbartha-api.com/
+dataPropertyOrder:
+  "&":
+    - scheme
+    - host
+    - port
+    - auth0_domain
+    - client_id
+    - client_secret
+    - audience
+color: "#ff9500"
+isPrivate: false
+metaSortKey: 1693321243572

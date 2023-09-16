@@ -1,0 +1,35 @@
+_id: req_4d603f4d4f3f4b3f875babcf73d9b98e
+type: Request
+parentId: fld_7cdf6c012afd4d5cb50377cf2d781b1d
+modified: 1694878001514
+created: 1688529383652
+url: "{{ _.base_url }}/counselor/64f7f52e25a0bad0d4cde1ee"
+name: /counselor/{:counselorsId}
+description: ""
+method: DELETE
+body: {}
+parameters: []
+headers:
+  - id: pair_5deeba701f3c42dd8dd80e0f0a83c5e8
+    name: User-Agent
+    value: Insomnia/2023.5.8
+    description: ""
+    disabled: true
+  - id: pair_5c6cb25948cd47058546f55f22cb2334
+    name: Content-Type
+    value: application/json
+    description: ""
+  - id: pair_2f996b867dbc4930b94bafed8697e7f1
+    name: Authorization
+    value: Bearer {% response 'body', 'req_b7b14c893910420682bc3906066cb707',
+      'b64::JC5hY2Nlc3NfdG9rZW4=::46b', 'never', 60 %}
+    description: ""
+authentication: {}
+metaSortKey: 400
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

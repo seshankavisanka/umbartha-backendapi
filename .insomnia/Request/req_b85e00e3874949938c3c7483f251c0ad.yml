@@ -1,0 +1,21 @@
+_id: req_b85e00e3874949938c3c7483f251c0ad
+type: Request
+parentId: fld_14e0211ae26543bca2a514f8559cb962
+modified: 1694402948461
+created: 1690542781154
+url: "{{ _.base_url }}/meeting-booking/64c73f9f618d49204278402e"
+name: /meeting-booking/{:meetingBookingId}
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: 262.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,22 @@
+_id: req_7acd7e0a50dc45549d26ee0e60a9c1b4
+type: Request
+parentId: fld_14e0211ae26543bca2a514f8559cb962
+modified: 1694402988610
+created: 1690542780192
+url: "{{ _.base_url
+  }}/meeting-booking/64c73f9f618d49204278402e/remark/64c74de220d657790ae0e677"
+name: /meeting-booking/{:meetingBookingId}/remark/{:remarkId}
+description: ""
+method: DELETE
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: 825
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

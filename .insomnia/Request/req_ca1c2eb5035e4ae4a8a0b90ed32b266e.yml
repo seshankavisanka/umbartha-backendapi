@@ -1,0 +1,21 @@
+_id: req_ca1c2eb5035e4ae4a8a0b90ed32b266e
+type: Request
+parentId: fld_d22b611398d34b6b988c7f3e3fc0323d
+modified: 1694402914581
+created: 1689663002470
+url: "{{ _.base_url }}/media/image/64b61520076a3f864ec631361689662553550-123278.png"
+name: /media/image/{:fileName}
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: 0
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

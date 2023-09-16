@@ -1,0 +1,36 @@
+_id: req_29a22a055d7049dcbe5b6e5bd9da92d5
+type: Request
+parentId: fld_7cdf6c012afd4d5cb50377cf2d781b1d
+modified: 1694877771856
+created: 1688529433564
+url: "{{ _.base_url }}/counselor"
+name: /counselor
+description: ""
+method: GET
+body:
+  mimeType: application/json
+  text: ""
+parameters: []
+headers:
+  - name: User-Agent
+    value: Insomnia/2023.5.8
+    id: pair_131f0f09f9204fbea3ca1f744558cba5
+    disabled: true
+  - id: pair_a5c87315347f4a509020561c0e542c65
+    name: Content-Type
+    value: application/json
+    description: ""
+  - id: pair_91d25a47d37a437a9b9f2acf4dcb7180
+    name: Authorization
+    value: Bearer {% response 'body', 'req_b7b14c893910420682bc3906066cb707',
+      'b64::JC5hY2Nlc3NfdG9rZW4=::46b', 'never', 60 %}
+    description: ""
+authentication: {}
+metaSortKey: 150
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,23 @@
+_id: req_34a11c4a1b9e4569b1f65156c53d2817
+type: Request
+parentId: fld_4494ca5549854e0fb73d39b815f98b1f
+modified: 1694337767258
+created: 1690079329308
+url: "{{ _.base_url
+  }}/meeting/64fca2dee3109bd3b9402302/meeting-payment/override/64fd89f09ab4c3c4\
+  a943834b"
+name: /meeting/{:meetingId}/meeting-payment/override/{:optionId}
+description: ""
+method: DELETE
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: 1700
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

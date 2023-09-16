@@ -1,0 +1,40 @@
+_id: req_92351c7c743144dd86bc9f06b59caff4
+type: Request
+parentId: fld_399bc2f69d0e4e20bb905d478c2bbc11
+modified: 1694877596801
+created: 1688466305291
+url: "{{ _.base_url }}/service"
+name: /service
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"name" : "Couple session", 
+    	"description" : "session description xxxxx"
+    }
+parameters: []
+headers:
+  - name: User-Agent
+    value: Insomnia/2023.5.8
+    id: pair_8eeeef783b0c40f38110ec931e720a6c
+    disabled: true
+  - id: pair_7d961184a05e4020990d0398d860f422
+    name: Content-Type
+    value: application/json
+    description: ""
+  - id: pair_a9943e2244264991861573728a82da94
+    name: Authorization
+    value: Bearer {% response 'body', 'req_b7b14c893910420682bc3906066cb707',
+      'b64::JC5hY2Nlc3NfdG9rZW4=::46b', 'never', 60 %}
+    description: ""
+authentication: {}
+metaSortKey: 25
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

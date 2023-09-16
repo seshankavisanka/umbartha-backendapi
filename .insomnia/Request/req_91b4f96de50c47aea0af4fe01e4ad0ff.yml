@@ -1,0 +1,29 @@
+_id: req_91b4f96de50c47aea0af4fe01e4ad0ff
+type: Request
+parentId: fld_4494ca5549854e0fb73d39b815f98b1f
+modified: 1694331748581
+created: 1689834171081
+url: "{{ _.base_url }}/meeting/64fca2dee3109bd3b9402302/meeting-duration"
+name: /meeting/{:meetingId}/meeting-duration
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"hours": 1,
+    	"mins": 15
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: 500
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

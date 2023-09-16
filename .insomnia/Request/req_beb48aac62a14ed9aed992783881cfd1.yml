@@ -1,0 +1,36 @@
+_id: req_beb48aac62a14ed9aed992783881cfd1
+type: Request
+parentId: fld_978372f0806f43578e875d84b21c64f3
+modified: 1694402998734
+created: 1690795173849
+url: "{{ _.base_url }}/booking-payment/64c3a40577e2184bcfa3edbf"
+name: /booking-payment/{:clientId}
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"counsellor": "64b66e585a486a82d2a9e5b8",
+    	"meeting": "64ba46b68f34a17d2facbb5b",
+    	"room": "64b6679d393174e0f9c2042a",
+    	"paidOn": "24-11-2023 13:10",
+    	"paymentMethod": "64ba72d77d125fd4a390b160",
+    	"completed": false,
+    	"amount": 5000,
+    	"paid": 4500,
+    	"currency": "LKR"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: 50
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

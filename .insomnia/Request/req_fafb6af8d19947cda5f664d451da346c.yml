@@ -1,0 +1,34 @@
+_id: req_fafb6af8d19947cda5f664d451da346c
+type: Request
+parentId: fld_8680c3b213ef4aaeae1625ebdf674d6b
+modified: 1694875374266
+created: 1688987865145
+url: "{{ _.base_url }}/notification/6505bed0badd528804850f7f"
+name: /notification/{:notificationId}
+description: ""
+method: DELETE
+body: {}
+parameters: []
+headers:
+  - id: pair_54cc98dc4686494496f1ed9021602fde
+    name: User-Agent
+    value: Insomnia/2023.5.8
+    description: ""
+  - id: pair_3dcf82b427504570aecd65531df51f17
+    name: Content-Type
+    value: application/json
+    description: ""
+  - id: pair_f40b70cbc9a8407193bfd22bb25bbac0
+    name: Authorization
+    value: Bearer {% response 'body', 'req_b7b14c893910420682bc3906066cb707',
+      'b64::JC5hY2Nlc3NfdG9rZW4=::46b', 'never', 60 %}
+    description: ""
+authentication: {}
+metaSortKey: 350
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

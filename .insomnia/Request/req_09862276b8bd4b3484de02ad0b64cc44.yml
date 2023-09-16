@@ -1,0 +1,39 @@
+_id: req_09862276b8bd4b3484de02ad0b64cc44
+type: Request
+parentId: fld_8680c3b213ef4aaeae1625ebdf674d6b
+modified: 1694876100335
+created: 1688987922688
+url: "{{ _.base_url }}/notification"
+name: /notification
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"type" : "SMS",
+    	"name" : "Booking Confirmation Template", 
+    	"template" : "long text"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_e80d3b0cbe334f749f45147aba5a2c73
+  - name: Authorization
+    value: Bearer {% response 'body', 'req_b7b14c893910420682bc3906066cb707',
+      'b64::JC5hY2Nlc3NfdG9rZW4=::46b', 'never', 60 %}
+    id: pair_8c8202ac73f84635b482c854ee0fda3b
+  - id: pair_358f74c028da43588bb26788daf3b335
+    name: User-Agent
+    value: Insomnia/2023.5.8
+    description: ""
+authentication: {}
+metaSortKey: 0
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

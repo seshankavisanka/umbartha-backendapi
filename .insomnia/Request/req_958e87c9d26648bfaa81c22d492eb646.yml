@@ -1,0 +1,27 @@
+_id: req_958e87c9d26648bfaa81c22d492eb646
+type: Request
+parentId: fld_eb5850ba3dcc4d07843195f093a38ca2
+modified: 1694408981677
+created: 1690282783044
+url: "{{ _.base_url }}/data-form"
+name: /data-form
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: oauth2
+  grantType: client_credentials
+  accessTokenUrl: "{{ _.AUTH0_TOKEN_ENDPOINT }}"
+  clientId: "{{ _.AUTH0_CLIENT_ID }}"
+  clientSecret: "{{ _.AUTH0_CLIENT_SECRET }}"
+  audience: "{{ _.AUTH0_AUDIENCE }}"
+metaSortKey: 100
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

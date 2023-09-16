@@ -1,0 +1,21 @@
+_id: req_3f698a67fc7246be9c646ccaff441c87
+type: Request
+parentId: fld_629ade2369ea488994033bf7d4db4243
+modified: 1694173313561
+created: 1690432768987
+url: "{{ _.base_url }}/client/64fb07e661edc4ea879a37cc"
+name: /client/{:clientId}
+description: ""
+method: DELETE
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: 190.625
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,28 @@
+_id: req_d02b41ae1ba34f44ad109f33c428483b
+type: Request
+parentId: fld_027fe1d62c8645d18d5f0c6eb7ed9e0c
+modified: 1694065344167
+created: 1689253606753
+url: "{{ _.base_url }}/location/64f85a213612c2cb0bd9d949"
+name: /location/{:locationId}
+description: ""
+method: PATCH
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"name" : "Main om"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: 400
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

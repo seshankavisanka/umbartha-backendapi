@@ -1,0 +1,28 @@
+_id: req_174af498f6bb4d3795f18c5fe1e3f5db
+type: Request
+parentId: fld_14e0211ae26543bca2a514f8559cb962
+modified: 1693321480934
+created: 1690541225147
+url: "{{ _.base_url }}/meeting-booking/64e86911979848966777fc80/nextRecommended"
+name: /meeting-booking/{:meetingBookingId}/nextRecommended
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"nextRecommended": "24-11-2023 13:10"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: 850
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

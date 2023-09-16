@@ -1,0 +1,46 @@
+_id: req_70d9aedfdd8546b49132cc98a1ffd341
+type: Request
+parentId: fld_978372f0806f43578e875d84b21c64f3
+modified: 1694403047008
+created: 1690795172829
+url: "{{ _.base_url
+  }}/booking-payment/64c79a7baff6f0fcd5a39fe6/coupon/64aeb25c00e1de61e6ff415a"
+name: /booking-payment/{:bookingPaymentId}/coupon
+description: ""
+method: DELETE
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"_id": "sdvsd",
+    	"client": "_clientId",
+    	"counsellor": "_counsellerId",
+    	"meeting": "_meetingId",
+    	"room": "_roomId",
+    	"timeFrom": "24-11-2023 12:10",
+    	"timeTo": "24-11-2023 13:10",
+    	"status": "COMPLETED",
+    	"remarks": [
+    		{
+    			"createdAt": "",
+    			"createdBy": "_counsellerId",
+    			"remark": "Remark xxxx "
+    		}
+    	],
+    	"expiresIn": "5mins",
+    	"availability": "AVAILABLE",
+    	"nextRecommended": "24-11-2023 13:10"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: 325
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

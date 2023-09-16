@@ -1,0 +1,76 @@
+_id: req_6df4bac7a7674156a34f4b92cc309d5f
+type: Request
+parentId: fld_7cdf6c012afd4d5cb50377cf2d781b1d
+modified: 1694877959794
+created: 1688529412923
+url: "{{ _.base_url }}/counselor/64dc5abef44af0d0242a58ca"
+name: /counselor/{:counselorsId}
+description: ""
+method: PATCH
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"title": "Ms",
+    	"gender": "Male",
+    	"firstName": "Marie",
+    	"lastName": "Jane",
+    	"email": "mariejane@gmail.com",
+    	"hotline": "+94112200312",
+    	"mobile": "+94703121211",
+    	"dateOfBirth": "1990-01-01",
+    	"practiceStartedOn": "1990-01-01",
+    	"languagesSpoken": [
+    		"English",
+    		"Sinhala"
+    	],
+    	"sessionType": [
+    		"ONLINE",
+    		"ON-PREMISE"
+    	],
+    	"specialization": [
+    		"Marriage and Family Counseling",
+    		"REBT Therapy"
+    	],
+    	"credentials": [
+    		"BSc. Counselling Psychology",
+    		"REBT Qualified Counsellor"
+    	],
+    	"licenses": [
+    		{
+    			"licenseType": "Sri Lanka Counselling Association",
+    			"licenseNumber": "L12345",
+    			"licenseExpirationDate": "2024-12-31"
+    		},
+    		{
+    			"licenseType": "REBT Counsellors Group",
+    			"licenseNumber": "AAABBCC",
+    			"licenseExpirationDate": "2024-12-31"
+    		}
+    	]
+    }
+parameters: []
+headers:
+  - id: pair_085256aee70e42d1845a8d639cc3eee6
+    name: User-Agent
+    value: Insomnia/2023.5.8
+    description: ""
+    disabled: true
+  - id: pair_8146d02b42fe42388b439d17e65d74cf
+    name: Content-Type
+    value: application/json
+    description: ""
+  - id: pair_0cc2b726e46342f4ae1636eea878d644
+    name: Authorization
+    value: Bearer {% response 'body', 'req_b7b14c893910420682bc3906066cb707',
+      'b64::JC5hY2Nlc3NfdG9rZW4=::46b', 'never', 60 %}
+    description: ""
+authentication: {}
+metaSortKey: 300
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

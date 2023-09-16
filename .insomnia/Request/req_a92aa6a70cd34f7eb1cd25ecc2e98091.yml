@@ -1,0 +1,23 @@
+_id: req_a92aa6a70cd34f7eb1cd25ecc2e98091
+type: Request
+parentId: fld_4494ca5549854e0fb73d39b815f98b1f
+modified: 1694331170172
+created: 1689743204748
+url: "{{ _.base_url
+  }}/meeting/64fca2dee3109bd3b9402302/meeting-notification/64fd7113792c3f7ff472\
+  f362"
+name: /meeting/{:meetingId}/meeting-notification/{:meetingId}
+description: ""
+method: DELETE
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: 425
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

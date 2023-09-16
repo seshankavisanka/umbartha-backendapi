@@ -1,0 +1,23 @@
+_id: req_207d09b6beac40baa30ec1e2de2c082e
+type: Request
+parentId: fld_63a16578b66b401294a54a5788379652
+modified: 1694065418167
+created: 1693997145569
+url: "{{ _.base_url
+  }}/media/image/locationGallery/64f962b4183052c29131725c1694065381586-White
+  Dog.jpg (1).jpg"
+name: /media/image/{s3FolderName}/{updatedFileName}
+description: ""
+method: DELETE
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: 578.515625
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

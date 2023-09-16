@@ -1,0 +1,21 @@
+_id: req_bf90bedf6aff4fe588e7484986f2c4a1
+type: Request
+parentId: fld_978372f0806f43578e875d84b21c64f3
+modified: 1694403012412
+created: 1690795173468
+url: "{{ _.base_url }}/booking-payment/64c78335c6430178b8d465eb"
+name: /booking-payment/{:bookingPaymentId}
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: 137.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,44 @@
+_id: req_0905c3ae5a15407b8d9a34dfdd2b2b3e
+type: Request
+parentId: fld_0b0fe9af44414f7aa152c273078c5723
+modified: 1694878376183
+created: 1692268578312
+url: "{{ _.base_url }}/counselor/64f828ff0caa679436efeb8d/location-reservation"
+name: counselor/{:counselorId}/location-reservation
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"startDate": "24-11-2023",
+    	"endDate": "24-12-2023",
+    	"startTime": 3333,
+    	"endTime": 5555,
+    	"location": "64fa03a2dde54719125a7efa"
+    }
+parameters: []
+headers:
+  - id: pair_249986ca0c3b4f3e8afb65a7c1b9a66a
+    name: User-Agent
+    value: Insomnia/2023.5.8
+    description: ""
+    disabled: true
+  - id: pair_b081b6114eb143708af5a847add2161f
+    name: Content-Type
+    value: application/json
+    description: ""
+  - id: pair_cea681674157403bada8375ea51181da
+    name: Authorization
+    value: Bearer {% response 'body', 'req_b7b14c893910420682bc3906066cb707',
+      'b64::JC5hY2Nlc3NfdG9rZW4=::46b', 'never', 60 %}
+    description: ""
+authentication: {}
+metaSortKey: 0
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

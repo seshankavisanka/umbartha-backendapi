@@ -1,0 +1,38 @@
+_id: req_ae37d573b8db456c85b4c335ab33f1c3
+type: Request
+parentId: fld_8680c3b213ef4aaeae1625ebdf674d6b
+modified: 1694875208911
+created: 1688987935041
+url: "{{ _.base_url }}/notification"
+name: /notification
+description: ""
+method: GET
+body: {}
+parameters:
+  - id: pair_0bfaba4e2eac40e888232ee8cbf9cf64
+    name: ""
+    value: ""
+    description: ""
+headers:
+  - id: pair_3a37e714ebdb4ad69f0f8e08a5087177
+    name: Content-Type
+    value: application/json
+    description: ""
+  - id: pair_3f15bb14d53a4ed5a6a5feab0072611b
+    name: Authorization
+    value: Bearer {% response 'body', 'req_b7b14c893910420682bc3906066cb707',
+      'b64::JC5hY2Nlc3NfdG9rZW4=::46b', 'never', 60 %}
+    description: ""
+  - id: pair_da73dbb4a06b44648277eeebd5816c57
+    name: User-Agent
+    value: Insomnia/2023.5.8
+    description: ""
+authentication: {}
+metaSortKey: 100
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

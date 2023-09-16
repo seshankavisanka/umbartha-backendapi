@@ -1,0 +1,32 @@
+_id: req_94a5b2efdcfd4210937086f2aacf35b9
+type: Request
+parentId: fld_4494ca5549854e0fb73d39b815f98b1f
+modified: 1694329221376
+created: 1689743208307
+url: "{{ _.base_url }}/meeting/64fca2dee3109bd3b9402302/meeting-notification"
+name: /meeting/{:meetingId}/meeting-notification
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"type": "EMAIL",
+    	"enable": true,
+    	"template": "64fd6800f2f35ae2f158c566",
+    	"remark": "Booking confirmation email",
+    	"sendBefore": -1
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: 350
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

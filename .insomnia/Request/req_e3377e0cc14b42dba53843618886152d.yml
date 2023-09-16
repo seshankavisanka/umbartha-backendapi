@@ -1,0 +1,37 @@
+_id: req_e3377e0cc14b42dba53843618886152d
+type: Request
+parentId: fld_4494ca5549854e0fb73d39b815f98b1f
+modified: 1694278018722
+created: 1689743209686
+url: "{{ _.base_url }}/meeting"
+name: /meeting
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"meetingType": "ONLINE",
+    	"organizer": "64f828ff0caa679436efeb8d",
+    	"internalName": "My Counselling Sessions for the Week",
+    	"description": "some text",
+    	"scheduling": {
+    		"title": "Calendar page title",
+    		"description": "Description to display on Calendar page",
+    		"enablePayments": true,
+    		"timezone": "GMT+5.30"
+    	}
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: 50
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,31 @@
+_id: req_b7b14c893910420682bc3906066cb707
+type: Request
+parentId: wrk_5813bc3a28cd43dd889db2add0e3b9f5
+modified: 1694850756856
+created: 1694601092030
+url: "{{ _.auth0_domain }}/oauth/token"
+name: /token
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"client_id"  : "{{ _.client_id }}", 
+    	"client_secret" : "{{ _.client_secret }}",  
+    	"audience" : "{{ _.audience }}", 
+    	"grant_type" : "client_credentials"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: 62.451171875
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,33 @@
+_id: req_232b0c7017b44e88b1bb1b86f0334437
+type: Request
+parentId: fld_14e0211ae26543bca2a514f8559cb962
+modified: 1694402931871
+created: 1690542780926
+url: "{{ _.base_url }}/meeting-booking/64e30f854d2daacb043e1a2c"
+name: /meeting-booking/{:counsellorId}
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"client": "64e5b1fc78f16e269e5a021d",
+    	"meeting": "64ba46b68f34a17d2facbb5b",
+    	"room": "64df46567bd7682a77fd09b9",
+    	"timeFrom": "24-11-2023 13:10",
+    	"timeTo": "24-11-2023 13:10",
+    	"status": "COMPLETED"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: 212.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

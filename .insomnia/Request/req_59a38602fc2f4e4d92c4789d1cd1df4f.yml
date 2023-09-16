@@ -1,0 +1,23 @@
+_id: req_59a38602fc2f4e4d92c4789d1cd1df4f
+type: Request
+parentId: fld_027fe1d62c8645d18d5f0c6eb7ed9e0c
+modified: 1694582790379
+created: 1689253453362
+url: "{{ _.base_url }}/location/650001038657687209222e24"
+name: /location/{:locationId}
+description: ""
+method: DELETE
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: oauth2
+  grantType: authorization_code
+metaSortKey: 437.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

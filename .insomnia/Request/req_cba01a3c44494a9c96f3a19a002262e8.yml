@@ -1,0 +1,22 @@
+_id: req_cba01a3c44494a9c96f3a19a002262e8
+type: Request
+parentId: fld_eb5850ba3dcc4d07843195f093a38ca2
+modified: 1694272163271
+created: 1690282782360
+url: "{{ _.base_url
+  }}/data-form/64fc89a68a2c85261947c355/data/64fc8a088a2c85261947c36f"
+name: /data-form{:dataFormId}/data/{:dataId}
+description: ""
+method: DELETE
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: 700
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

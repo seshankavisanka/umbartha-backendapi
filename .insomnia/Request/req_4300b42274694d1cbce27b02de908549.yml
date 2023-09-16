@@ -1,0 +1,28 @@
+_id: req_4300b42274694d1cbce27b02de908549
+type: Request
+parentId: fld_978372f0806f43578e875d84b21c64f3
+modified: 1694403033583
+created: 1690795172996
+url: "{{ _.base_url }}/booking-payment/64c79a7baff6f0fcd5a39fe6/coupon"
+name: /booking-payment/{:bookingPaymentId}/coupon
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"_id": "64aeb25c00e1de61e6ff415a"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: 287.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

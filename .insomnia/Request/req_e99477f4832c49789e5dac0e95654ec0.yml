@@ -1,0 +1,29 @@
+_id: req_e99477f4832c49789e5dac0e95654ec0
+type: Request
+parentId: fld_629ade2369ea488994033bf7d4db4243
+modified: 1694173198085
+created: 1690432772875
+url: "{{ _.base_url }}/client/64fb07e661edc4ea879a37cc"
+name: /client/{:clientId}
+description: ""
+method: PATCH
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"phone": "+922233422726",
+    	"email": "update@rtha.org"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: 181.25
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

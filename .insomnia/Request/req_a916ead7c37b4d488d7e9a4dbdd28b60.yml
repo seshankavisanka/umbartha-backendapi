@@ -1,0 +1,35 @@
+_id: req_a916ead7c37b4d488d7e9a4dbdd28b60
+type: Request
+parentId: fld_027fe1d62c8645d18d5f0c6eb7ed9e0c
+modified: 1694498218031
+created: 1689236098499
+url: "{{ _.base_url }}/location/64fffd9ce47e812a0fe1737b/gallery"
+name: /location/{:locationId}/gallery
+description: ""
+method: PUT
+body:
+  mimeType: multipart/form-data
+  params:
+    - name: public
+      value: "true"
+      id: pair_72f17f07c8304438b475589265545f2d
+      disabled: false
+    - id: pair_02dfcc1b67fd4d008219b1c23d273236
+      name: file
+      value: ""
+      description: ""
+      type: file
+      fileName: C:\Users\Seshan\Downloads\White Dog.jpg (1).jpg
+parameters: []
+headers:
+  - name: Content-Type
+    value: multipart/form-data
+authentication: {}
+metaSortKey: 475
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

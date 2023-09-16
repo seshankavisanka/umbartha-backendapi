@@ -1,0 +1,22 @@
+_id: req_fa3f3bfb4cc04d0499f189c770ce07ac
+type: Request
+parentId: fld_4494ca5549854e0fb73d39b815f98b1f
+modified: 1694337632780
+created: 1689915167913
+url: "{{ _.base_url
+  }}/meeting/64fca2dee3109bd3b9402302/meeting-payment/64fd89f09ab4c3c4a943834b"
+name: /meeting/{:meetingId}/meeting-payment/{:optionId}
+description: ""
+method: DELETE
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: 1100
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

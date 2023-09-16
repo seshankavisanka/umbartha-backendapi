@@ -1,0 +1,21 @@
+_id: req_86cc9c83efd84b1f8190e0fc4828f4d9
+type: Request
+parentId: fld_bf00b3efcb9248deb29aa44a4b936937
+modified: 1694370375780
+created: 1691660767613
+url: "{{ _.base_url }}/payment/64fd8a379ab4c3c4a943836d"
+name: /payment/{:paymentId}
+description: ""
+method: PUT
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: 500
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

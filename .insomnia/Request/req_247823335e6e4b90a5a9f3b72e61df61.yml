@@ -1,0 +1,29 @@
+_id: req_247823335e6e4b90a5a9f3b72e61df61
+type: Request
+parentId: fld_027fe1d62c8645d18d5f0c6eb7ed9e0c
+modified: 1693992086487
+created: 1689228003981
+url: "{{ _.base_url }}/location"
+name: /location
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"name" : "Meeting Room", 
+    	"meetingRoom" : true
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: 0
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

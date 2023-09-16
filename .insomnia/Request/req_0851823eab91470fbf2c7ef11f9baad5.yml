@@ -1,0 +1,30 @@
+_id: req_0851823eab91470fbf2c7ef11f9baad5
+type: Request
+parentId: fld_eb5850ba3dcc4d07843195f093a38ca2
+modified: 1694272028535
+created: 1690282782207
+url: "{{ _.base_url }}/data-form/64fb08c361edc4ea879a37e0"
+name: /data-form{:dataFormId}
+description: ""
+method: PATCH
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"type": "BASIC",
+    	"title": "Client intakeupdated",
+    	"description": "Description about the data collected updated"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: 300
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

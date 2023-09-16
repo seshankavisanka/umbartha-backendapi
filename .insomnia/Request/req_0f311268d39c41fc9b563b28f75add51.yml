@@ -1,0 +1,22 @@
+_id: req_0f311268d39c41fc9b563b28f75add51
+type: Request
+parentId: fld_629ade2369ea488994033bf7d4db4243
+modified: 1694173465941
+created: 1690432765541
+url: "{{ _.base_url
+  }}/client/64fb07e661edc4ea879a37cc/intake-form/64fb090f61edc4ea879a37e4"
+name: /client/{:clientId}/intake-form/{:intakeFormId}
+description: ""
+method: DELETE
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: 600
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

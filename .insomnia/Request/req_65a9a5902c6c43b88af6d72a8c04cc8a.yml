@@ -1,0 +1,33 @@
+_id: req_65a9a5902c6c43b88af6d72a8c04cc8a
+type: Request
+parentId: fld_4494ca5549854e0fb73d39b815f98b1f
+modified: 1694337762894
+created: 1690079328498
+url: "{{ _.base_url
+  }}/meeting/64fca2dee3109bd3b9402302/meeting-payment/override/64fd89f09ab4c3c4\
+  a943834b"
+name: /meeting/{:meetingId}/meeting-payment/override/{:optionId}
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"name": "Bank Transfer",
+    	"enable": true,
+    	"description": "Please make a payment to below account",
+    	"additionalInfo": "Bank details"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: 1500
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

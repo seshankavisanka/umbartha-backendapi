@@ -1,0 +1,25 @@
+_id: req_af10f332ab58457691b1370c10178607
+type: Request
+parentId: fld_865b7f7fd6e14ef39fe9dd659b4e91b6
+modified: 1694374700465
+created: 1689170405449
+url: "{{ _.base_url }}/coupon/64fe1acc29dda9fc224bbc91"
+name: /coupon/{:couponId}
+description: ""
+method: PATCH
+body:
+  mimeType: application/json
+  text: ""
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: 300
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

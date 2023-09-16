@@ -1,0 +1,39 @@
+_id: req_b8cb6273e8524a628c9101b44e58b075
+type: Request
+parentId: fld_399bc2f69d0e4e20bb905d478c2bbc11
+modified: 1694877584746
+created: 1688466260218
+url: "{{ _.base_url }}/service/64ef40a8c687804687565404"
+name: /service/{:serviceId}
+description: ""
+method: PATCH
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"description": "Session description 1234"
+    }
+parameters: []
+headers:
+  - name: User-Agent
+    value: Insomnia/2023.5.8
+    id: pair_56c759eec3b74e72b8d2a198b741382f
+    disabled: true
+  - id: pair_4e6cd431a8894a238b537aa2dba8bf60
+    name: Content-Type
+    value: application/json
+    description: ""
+  - id: pair_e5352c43663d4ddf90ef3fb1a5087be6
+    name: Authorization
+    value: Bearer {% response 'body', 'req_b7b14c893910420682bc3906066cb707',
+      'b64::JC5hY2Nlc3NfdG9rZW4=::46b', 'never', 60 %}
+    description: ""
+authentication: {}
+metaSortKey: 250
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

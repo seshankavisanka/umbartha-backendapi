@@ -1,0 +1,28 @@
+_id: req_c378e75426b74aa184f2cc4f34a4c3f9
+type: Request
+parentId: fld_865b7f7fd6e14ef39fe9dd659b4e91b6
+modified: 1694374705750
+created: 1691727521499
+url: "{{ _.base_url }}/coupon/64fe1acc29dda9fc224bbc91/used-on"
+name: /coupon/{:couponId}/used-on
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"usedOn": "23-11-2023 12:10"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: 500
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

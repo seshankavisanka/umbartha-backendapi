@@ -1,0 +1,21 @@
+_id: req_bab1a795753b40088fc2f84d3cd42026
+type: Request
+parentId: fld_4494ca5549854e0fb73d39b815f98b1f
+modified: 1694278037348
+created: 1689743209458
+url: "{{ _.base_url }}/meeting"
+name: /meeting
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: 125
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

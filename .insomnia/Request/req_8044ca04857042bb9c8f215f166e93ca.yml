@@ -1,0 +1,41 @@
+_id: req_8044ca04857042bb9c8f215f166e93ca
+type: Request
+parentId: fld_399bc2f69d0e4e20bb905d478c2bbc11
+modified: 1694877587829
+created: 1688466286451
+url: "{{ _.base_url }}/service"
+name: /service
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - id: pair_1301d06206c44614a527230f34b9fada
+    name: User-Agent
+    value: Insomnia/2023.5.8
+    description: ""
+    disabled: true
+  - id: pair_4f804c74ca854a22af4d089126bb0e8f
+    name: Content-Type
+    value: application/json
+    description: ""
+  - id: pair_64d16f6328094c8d84d35554563a06e2
+    name: Authorization
+    value: Bearer {% response 'body', 'req_b7b14c893910420682bc3906066cb707',
+      'b64::JC5hY2Nlc3NfdG9rZW4=::46b', 'never', 60 %}
+    description: ""
+authentication:
+  type: oauth2
+  grantType: client_credentials
+  accessTokenUrl: "{{ _.AUTH0_TOKEN_ENDPOINT }}"
+  clientId: "{{ _.AUTH0_CLIENT_ID }}"
+  clientSecret: "{{ _.AUTH0_CLIENT_SECRET }}"
+  audience: "{{ _.AUTH0_AUDIENCE }}"
+metaSortKey: 37.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

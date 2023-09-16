@@ -1,0 +1,30 @@
+_id: req_926de3c777c44939ab829fa28ae608f7
+type: Request
+parentId: fld_14e0211ae26543bca2a514f8559cb962
+modified: 1694402970697
+created: 1690542780488
+url: "{{ _.base_url }}/meeting-booking/64e86911979848966777fc80/remark"
+name: /meeting-booking/{:meetingBookingId}/remark
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"createdAt": "text",
+    	"createdBy": "64e30f854d2daacb043e1a2c",
+    	"remark": "Remark xxxx "
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: 600
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

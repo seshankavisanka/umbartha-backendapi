@@ -1,0 +1,30 @@
+_id: req_f01cfbf5d0c54a5fb6c8ecddf0995a98
+type: Request
+parentId: fld_027fe1d62c8645d18d5f0c6eb7ed9e0c
+modified: 1694065497260
+created: 1689248058162
+url: "{{ _.base_url }}/location/64f962b4183052c29131725c/closed-date-plan"
+name: /location/{:locationId}/closed-date-plan
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"type": "DAY",
+    	"valueFrom": "xxxx",
+    	"valueTo": "xxxx"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: 500
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

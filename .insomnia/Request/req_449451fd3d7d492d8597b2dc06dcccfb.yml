@@ -1,0 +1,28 @@
+_id: req_449451fd3d7d492d8597b2dc06dcccfb
+type: Request
+parentId: fld_4494ca5549854e0fb73d39b815f98b1f
+modified: 1694278356895
+created: 1689743209026
+url: "{{ _.base_url }}/meeting/64fca184e3109bd3b94022f5"
+name: /meeting/{:meetingId}
+description: ""
+method: PATCH
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"description": "Some"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: 181.25
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

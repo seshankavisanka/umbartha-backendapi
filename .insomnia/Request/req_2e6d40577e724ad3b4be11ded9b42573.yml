@@ -1,0 +1,27 @@
+_id: req_2e6d40577e724ad3b4be11ded9b42573
+type: Request
+parentId: fld_027fe1d62c8645d18d5f0c6eb7ed9e0c
+modified: 1694595061861
+created: 1689229952518
+url: "{{ _.base_url }}/location"
+name: /location
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: oauth2
+  grantType: client_credentials
+  accessTokenUrl: "{{ _.AUTH0_TOKEN_ENDPOINT }}"
+  clientId: "{{ _.AUTH0_CLIENT_ID }}"
+  clientSecret: "{{ _.AUTH0_CLIENT_SECRET }}"
+  audience: "{{ _.AUTH0_AUDIENCE }}"
+metaSortKey: 100
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

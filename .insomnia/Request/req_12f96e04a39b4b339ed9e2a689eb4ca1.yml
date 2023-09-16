@@ -1,0 +1,22 @@
+_id: req_12f96e04a39b4b339ed9e2a689eb4ca1
+type: Request
+parentId: fld_4494ca5549854e0fb73d39b815f98b1f
+modified: 1694333327870
+created: 1689915167787
+url: "{{ _.base_url
+  }}/meeting/64fca2dee3109bd3b9402302/meeting-schedule/64fd79881eaafc83d0da3c7d"
+name: /meeting/{:meetingId}/meeting-schedule/{:scheduleId}
+description: ""
+method: DELETE
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: 850
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

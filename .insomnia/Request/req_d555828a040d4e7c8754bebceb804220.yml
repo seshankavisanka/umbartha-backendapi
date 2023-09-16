@@ -1,0 +1,34 @@
+_id: req_d555828a040d4e7c8754bebceb804220
+type: Request
+parentId: fld_0b0fe9af44414f7aa152c273078c5723
+modified: 1694878567047
+created: 1692268580131
+url: "{{ _.base_url }}/counselor/location-reservation/64fa09e601ba881565d76fc2"
+name: location-reservation{:locationReservationId}
+description: ""
+method: PATCH
+body: {}
+parameters: []
+headers:
+  - name: User-Agent
+    value: Insomnia/2023.5.8
+    id: pair_c8be3b3fed90450a8dd1dd3e92d2a131
+    disabled: true
+  - id: pair_819492f91a9a4a21b202753588440a89
+    name: Content-Type
+    value: application/json
+    description: ""
+  - id: pair_cefad9f7f26d4e8a8b66b4ed2c30ea90
+    name: Authorization
+    value: Bearer {% response 'body', 'req_b7b14c893910420682bc3906066cb707',
+      'b64::JC5hY2Nlc3NfdG9rZW4=::46b', 'never', 60 %}
+    description: ""
+authentication: {}
+metaSortKey: 300
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

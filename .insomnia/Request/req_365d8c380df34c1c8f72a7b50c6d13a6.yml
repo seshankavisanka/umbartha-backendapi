@@ -1,0 +1,21 @@
+_id: req_365d8c380df34c1c8f72a7b50c6d13a6
+type: Request
+parentId: fld_acdfeab992d74a8c8850b73085d8a50b
+modified: 1693991409141
+created: 1689134481902
+url: "{{ _.base_url }}/counselor/rate/64f841e1fe1cc6469b173791"
+name: /counselor/rate/{:rateId}
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: 200
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

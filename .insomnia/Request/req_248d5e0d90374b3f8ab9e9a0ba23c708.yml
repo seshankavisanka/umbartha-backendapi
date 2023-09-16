@@ -1,0 +1,21 @@
+_id: req_248d5e0d90374b3f8ab9e9a0ba23c708
+type: Request
+parentId: fld_027fe1d62c8645d18d5f0c6eb7ed9e0c
+modified: 1694065339422
+created: 1689229952712
+url: "{{ _.base_url }}/location/64f85a213612c2cb0bd9d949"
+name: /location/{:locationId}
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: 200
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

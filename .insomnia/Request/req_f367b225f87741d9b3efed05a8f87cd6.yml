@@ -1,0 +1,31 @@
+_id: req_f367b225f87741d9b3efed05a8f87cd6
+type: Request
+parentId: fld_629ade2369ea488994033bf7d4db4243
+modified: 1694173157213
+created: 1690432778132
+url: "{{ _.base_url }}/client"
+name: /client
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"name": "Client 1",
+    	"phone": "+92222222726",
+    	"counsellor": "64f828ff0caa679436efeb8d",
+    	"email": "user@umbartha.org"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: 50
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

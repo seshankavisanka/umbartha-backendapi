@@ -1,0 +1,41 @@
+_id: req_e66663667bd9470f8f050e398fd1339a
+type: Request
+parentId: fld_399bc2f69d0e4e20bb905d478c2bbc11
+modified: 1694877580791
+created: 1688466241602
+url: "{{ _.base_url }}/service/64f802c6d6d00a26c26b3daa"
+name: /service/{:serviceId}
+description: ""
+method: DELETE
+body: {}
+parameters: []
+headers:
+  - id: pair_2074e9e4ca6d4f118b1411d00911b56d
+    name: User-Agent
+    value: Insomnia/2023.5.8
+    description: ""
+    disabled: true
+  - id: pair_c81cb02b3ed340f3ae0f987b30967c1e
+    name: Content-Type
+    value: application/json
+    description: ""
+  - id: pair_292e022a8e1c492e827920af0a7f5b87
+    name: Authorization
+    value: Bearer {% response 'body', 'req_b7b14c893910420682bc3906066cb707',
+      'b64::JC5hY2Nlc3NfdG9rZW4=::46b', 'never', 60 %}
+    description: ""
+authentication:
+  type: oauth2
+  grantType: client_credentials
+  accessTokenUrl: "{{ _.AUTH0_TOKEN_ENDPOINT }}"
+  clientId: "{{ _.AUTH0_CLIENT_ID }}"
+  clientSecret: "{{ _.AUTH0_CLIENT_SECRET }}"
+  audience: "{{ _.AUTH0_AUDIENCE }}"
+metaSortKey: 300
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

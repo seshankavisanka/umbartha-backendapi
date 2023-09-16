@@ -1,0 +1,21 @@
+_id: req_1267913134ac4b4cb53db2c9393bafa6
+type: Request
+parentId: fld_bf00b3efcb9248deb29aa44a4b936937
+modified: 1694370388774
+created: 1689051967911
+url: "{{ _.base_url }}/payment/64fd8a379ab4c3c4a943836d"
+name: /payment/{:paymentId}
+description: ""
+method: DELETE
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: 450
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,28 @@
+_id: env_47e435788d2344afa3766a1b618f092a
+type: Environment
+parentId: env_b988c801306c49fcab49448099d53830
+modified: 1694851109632
+created: 1692268384561
+name: local
+data:
+  scheme: http://
+  host: localhost
+  port: "3000"
+  token: eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6IjFnclJGaTUwSVhWM2RoQTY1aTR0UyJ9.eyJpc3MiOiJodHRwczovL3VtYmFydGhhLmV1LmF1dGgwLmNvbS8iLCJzdWIiOiJhdlEwVTZhSDNWcFBuNUl2SVlkVERPdktuM2ltUW5jZUBjbGllbnRzIiwiYXVkIjoiaHR0cHM6Ly91bWJhcnRoYS1hcGkuY29tIiwiaWF0IjoxNjk0NjA2NzQxLCJleHAiOjE2OTQ2OTMxNDEsImF6cCI6ImF2UTBVNmFIM1ZwUG41SXZJWWRURE92S24zaW1RbmNlIiwic2NvcGUiOiJHWUogVllIIFFPTiBVTEsgVVVEIiwiZ3R5IjoiY2xpZW50LWNyZWRlbnRpYWxzIiwicGVybWlzc2lvbnMiOlsiR1lKIiwiVllIIiwiUU9OIiwiVUxLIiwiVVVEIl19.nfNe0zorVNh7Yd-uqikP9SdDfaRUMOUYF7V8wVwfJsLGASbswG5LFNn9SyN48dRNvpJ9wINem5wpT43Ivk4EYFHCmEam7jbvHpOMkzpu0Vm0o9832lv--ze--z7s2kdyHFQAskcJYSkbhNxq-j6DHOyruvckvR4OK5UWrxcsgBQ4FDaCNQMkNmerda2B8GugJW1QaQXMiBE4FlfqBZyqQC2q398nbM9aPUnHIlPUmvILzrGtWMmp1UrpmmbAnUEpOxFgzp5hBcMNm1cJ76TrWanb9PmsVh2CFSCr_9xQF71F6O1c5NTKaGP4dvPTPh76zyuf023SJlFiefl-Bgt51w
+  auth0_domain: https://umbartha.eu.auth0.com
+  client_id: yf1FqmQkjYN7Un6zTNy8jbx0l4eTPoFD
+  client_secret: zcregENG8FggEuNTztp5_6s2AouFjpwpvoWfPLsek431v0i0nhccQNenGNqm1UiO
+  audience: https://umbartha-api.com/
+dataPropertyOrder:
+  "&":
+    - scheme
+    - host
+    - port
+    - token
+    - auth0_domain
+    - client_id
+    - client_secret
+    - audience
+color: "#00ff33"
+isPrivate: false
+metaSortKey: 1692268384561

@@ -1,0 +1,34 @@
+_id: req_e14c71a33b6e4a47b745cb5ef57c69be
+type: Request
+parentId: fld_865b7f7fd6e14ef39fe9dd659b4e91b6
+modified: 1694374601917
+created: 1689170368452
+url: "{{ _.base_url }}/coupon"
+name: /coupon
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"numberOfCoupons": 2,
+    	"couponDetails": {
+    		"name": "Client1",
+    		"discountType": "FIXED",
+    		"amount": 500,
+    		"validThrough": "24-11-2023 12:10"
+    	}
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: 0
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
